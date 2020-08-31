@@ -1,0 +1,39 @@
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  background: linear-gradient(
+    45deg,
+    var(--background-interactive-1),
+    var(--background-interactive-2)
+  );
+  justify-content: space-between;
+  border-radius: 80px 500px 500px 250px;
+  padding: 1rem;
+  width: 30rem;
+  transition: all 300ms ease 100ms;
+}
+
+.button-container:hover {
+  background: linear-gradient(
+    45deg,
+    var(--background-interactive-hover-1),
+    var(--background-interactive-hover-2)
+  );
+  transform: perspective(30rem) scale3d(0.7, 0.7, 0.56) translateZ(16rem);
+  transform-origin: top;
+  box-shadow: 20px 30px 60px -40px #000;
+}
+
+.button-container img {
+  height: 8rem;
+  max-width: 8rem;
+  border-radius: 50%;
+  flex: 0 1 8rem;
+}
+
+.button-container label {
+  flex: 0 0 12rem;
+  font-size: 18px;
+}

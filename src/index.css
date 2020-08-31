@@ -1,6 +1,15 @@
 :root {
-  --background-color-1: #000;
-  --background-color-2: #fff;
+  --background-color-1: #fff;
+  --background-color-2: #44ceee;
+  --background-menu: #067d82;
+  --font-color-menu: #fff;
+  --font-color-menu-hover: #6dc8a1;
+
+  /* Buttons */
+  --background-interactive-1: #fff;
+  --background-interactive-2: aliceblue;
+  --background-interactive-hover-1: #fff;
+  --background-interactive-hover-2: #97f2e9;
 }
 
 * {
@@ -23,4 +32,17 @@ body {
 
 ul {
   list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .menu-container {
+  flex: 0 1 8rem;
+}
+
+a {
+  text-decoration: none;
 }

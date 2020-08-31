@@ -1,0 +1,21 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 40rem;
+  position: fixed;
+  top: 10rem;
+  left: 10rem;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.home h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
