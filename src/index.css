@@ -1,8 +1,8 @@
 :root {
   --background-color-1: #fff;
   --background-color-2: #44ceee;
-  --background-menu: #067d82;
-  --font-color-menu: #fff;
+  --background-menu: #59bb7a;
+  --font-color-menu: #000;
   --font-color-menu-hover: #6dc8a1;
 
   /* Buttons */
@@ -21,15 +21,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background: linear-gradient(
-    45deg,
-    var(--background-color-1),
-    var(--background-color-2)
-  );
-  background-attachment: fixed;
-}
-
 ul {
   list-style: none;
 }
@@ -37,10 +28,9 @@ ul {
 .container {
   display: flex;
   flex-direction: row;
-}
-
-.container .menu-container {
-  flex: 0 1 8rem;
+  background: var(--background-menu);
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 a {
