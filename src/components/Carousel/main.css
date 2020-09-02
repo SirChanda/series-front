@@ -1,0 +1,26 @@
+.carousel li.thumb {
+  max-width: 6vw;
+  max-height: 8vh;
+  min-width: 7vw;
+  min-height: 9vh;
+  border: none;
+}
+
+ul.thumbs.animated {
+  display: none;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.slider-wrapper ul.slider li.slide {
+  background: var(--transparent);
+}
+
+div.carousel.carousel-slider {
+  width: 55vw !important;
+  height: 45vh !important;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  border-radius: 15px;
+}

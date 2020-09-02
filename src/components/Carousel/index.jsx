@@ -1,9 +1,8 @@
 import React from "react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import "./main.css";
 
-export default ({ image }) => {
-  return (
-    <div className="carousel">
-      <img src={image}></img>
-    </div>
-  );
+export default ({ children }) => {
+  return <Carousel>{children}</Carousel>;
 };

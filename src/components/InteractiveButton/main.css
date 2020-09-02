@@ -2,13 +2,12 @@
   display: flex;
   align-items: center;
   margin-top: 2rem;
-  margin-right: 5rem;
   background: linear-gradient(
     45deg,
     var(--background-interactive-1),
     var(--background-interactive-2)
   );
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 80px 500px 500px 250px;
   padding: 0.5rem;
   width: 28rem;
