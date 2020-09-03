@@ -1,9 +1,14 @@
 :root {
   --transparent: #ececec00;
 
+  /* Background */
   --background-color-1: #fff;
   --background-color-2: #44ceee;
   --background-menu: #59bb7a;
+  --background-pending-series: #fff;
+  --background-list-option: #b1c0d0;
+
+  /* Fonts */
   --font-color-menu: #000;
   --font-color-menu-hover: #6dc8a1;
 

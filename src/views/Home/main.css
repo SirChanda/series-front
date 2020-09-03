@@ -2,7 +2,27 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  height: 44vh;
+  height: 42vh;
   margin: 0rem 4rem;
   width: 56%;
+}
+
+.pending-series-container {
+  background: var(--background-pending-series);
+  width: 20vw;
+  height: 80vh;
+  margin-top: 3vh;
+  border-radius: 15px;
+  padding: 2rem;
+  /* overflow-y: hidden; */
+  position: relative;
+  overflow-y: auto;
+}
+
+.pending-series {
+  /* overflow-y: auto; */
+  /* overflow-y: auto; */
+  /* overflow-x: hidden; */
+  position: relative;
+  height: 100%;
 }

@@ -1,0 +1,26 @@
+.list-option img {
+  max-width: 40px;
+  max-height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+}
+
+.list-option {
+  display: flex;
+  align-items: center;
+  background-color: var(--background-list-option);
+  border-radius: 5px;
+  padding: 4px;
+  margin-top: 5px;
+  transition: all 300ms ease 0s;
+}
+
+.list-option:hover {
+  transform: perspective(5px) scale3d(0.7, 0.7, 0.56) translateZ(2.8px);
+}
+
+.list-option span {
+  position: relative;
+  left: 20px;
+}

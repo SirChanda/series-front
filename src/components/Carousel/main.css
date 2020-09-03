@@ -8,9 +8,6 @@
 
 ul.thumbs.animated {
   display: none;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .slider-wrapper ul.slider li.slide {
@@ -19,7 +16,7 @@ ul.thumbs.animated {
 
 div.carousel.carousel-slider {
   width: 55vw !important;
-  height: 45vh !important;
+  height: 44vh !important;
   margin-top: 1rem;
   margin-left: 1rem;
   border-radius: 15px;
