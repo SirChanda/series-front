@@ -125,9 +125,7 @@ export default () => {
             path="/about"
           ></InteractiveButton>
           <InteractiveButton
-            img="https://i.pinimg.com/564x/fe/8d/bd/fe8dbd89f2e4152d5109dfba8e8e83d7.jpg" /* display: flex;
-            align-items: center;
-            justify-content: center; */
+            img="https://i.pinimg.com/564x/fe/8d/bd/fe8dbd89f2e4152d5109dfba8e8e83d7.jpg"
             text="Creepy Art"
             path="/about"
           ></InteractiveButton>
@@ -140,7 +138,11 @@ export default () => {
         <div className="pending-series-container">
           <ul className="pending-series">
             {images.map((x) => {
-              return <ListOption img={x.img}>{x.title}</ListOption>;
+              return (
+                <ListOption img={x.img} path="/about">
+                  {x.title}
+                </ListOption>
+              );
             })}
           </ul>
         </div>
