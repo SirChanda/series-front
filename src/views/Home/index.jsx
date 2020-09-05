@@ -137,9 +137,9 @@ export default () => {
         </div>
         <div className="pending-series-container">
           <ul className="pending-series">
-            {images.map((x) => {
+            {images.map((x, i) => {
               return (
-                <ListOption img={x.img} path="/about">
+                <ListOption img={x.img} path={`/category/${i}`}>
                   {x.title}
                 </ListOption>
               );
